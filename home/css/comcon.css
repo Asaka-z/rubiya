@@ -53,6 +53,7 @@
 }
 .topnav li{
     float: left;
+    overflow: visible;
 }
 .topnav li a i{
     display: inline-block;
