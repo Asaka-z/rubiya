@@ -1,0 +1,381 @@
+.container{
+    width: 1520px;
+    margin: 0 auto;
+}
+/* banner */
+#banner{
+    height: 975px;
+    overflow: hidden;
+}
+.ban{
+    background: url(../images/nubia_UI_6.0/5b962794d61b67.jpg) no-repeat center;
+    background-size: cover;
+    height: 975px;
+}
+.txt2{
+    width: 920px;
+    position: absolute;
+    text-align: center;
+    bottom: -100px;
+    left: 305px;
+    line-height: 30px;
+    animation: go3 1s linear forwards;
+    opacity: 0;
+}
+@keyframes go3{
+    0%{
+        bottom: -100px;
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        bottom: -50px;
+        opacity: 1;
+    }
+
+}
+.txt2 p:nth-child(1){
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.txt2 h2:nth-child(2){
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.ban2{
+    position: relative;
+    background: url(../images/nubia_UI_6.0/5b8ceee2d513811.jpg) no-repeat center;
+    background-size: cover;
+    height: 975px;
+    overflow: hidden;
+}
+.pic{
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    width: 582px;
+    height: 908px;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.txt h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.txt{
+    position: absolute;
+    right: 105px;
+    opacity: 0;
+    top: 350PX;
+}
+.txt p{
+    white-space: pre-wrap;
+}
+.ban3{
+    position: relative;
+    background: url(../images/nubia_UI_6.0/5b8ceee35dd036.jpg) no-repeat center;
+    background-size: cover;
+    height: 975px;
+    overflow: hidden;
+}
+.pic2{
+    position: absolute;
+    right: 105px;
+    top: 70px;
+    width: 582px;
+    height: 908px;
+}
+.txt3 h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.txt3{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    opacity: 0;
+    top: 350px;
+}
+.txt3 p{
+    white-space: pre-wrap;
+}
+.ban4{
+    position: relative;
+    background: url(../images/nubia_UI_6.0/5b8ceee0c632253.jpg) no-repeat center;
+    background-size: cover;
+    height: 975px;
+    overflow: hidden;
+}
+.pic3{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    width: 582px;
+    height: 908px;
+}
+.txt4 h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.txt4{
+    position: absolute;
+    right: 105px;
+    top: 70px;
+    opacity: 0;
+    top: 350px;
+}
+.txt4 p{
+    white-space: pre-wrap;
+}
+.ban5{
+    position: relative;
+    height: 530px;
+    background: url(../images/nubia_UI_6.0/5b8ceee17752195.jpg)no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center ;    
+}
+.ban5 .p1{
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    width: 211px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0;
+    color: #ffffff;
+}
+.pic4{
+    position: absolute;
+    top: 200px;
+    display: inline-block;
+    width: 535px;
+    opacity: 0;
+
+}
+.pic4 img{
+    margin-left: 30px;
+}
+.ban6{
+    position: relative;
+    background: url(../images/nubia_UI_6.0/5b8ceee3401ec57.jpg) no-repeat center;
+    background-size: cover;
+    height: 975px;
+    overflow: hidden;
+}
+.txt6 h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.txt6{
+    position: absolute;
+    right: 105px;
+    opacity: 0;
+    top: 350PX;
+    color: #ffffff;
+}
+.txt6 p{
+    white-space: pre-wrap;
+}
+/*下滑框 */
+#slide{
+    left: 0;
+    width:100%;
+    position: absolute;
+    top: 83px;
+    height: 0px;
+    background-color: rgba(0,0,0, 0.9);
+    opacity: 0;
+    z-index: 1;
+}
+#slides{
+    left: 0;
+    width:100%;
+    position: absolute;
+    top: 83px;
+    height: 0px;
+    background-color: rgba(0,0,0, 0.9);
+    opacity: 0;
+    overflow: hidden;
+}
+.sli{ 
+    position: relative;
+    width: 1170px;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+}
+.slis{ 
+    position: relative;
+    width: 1170px;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+}
+.iplist{
+    position: absolute;
+    left: 0px;
+    top: 57px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    height: 188px; 
+    width: 9999px;
+    color: #ffffff;
+}
+.iplist li{
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+.iplists{
+    position: absolute;
+    left: 0px;
+    top: 57px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    height: 188px; 
+    width: 9999px;
+    color: #ffffff;
+}
+.iplists li{
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+.iplists li img{
+    width: 115px;
+    height: 130px;
+}
+.iplist li img{
+    width: 115px;
+    height: 130px;
+}
+.iplist li p{
+    margin-top: 20px;
+}
+.iplists li p{
+    margin-top: 20px;
+}
+.lef{
+    position:absolute;
+    top: 120px;
+    right: 30px;;
+    display: block;
+    width: 28px;
+    height: 45px;
+    background: url(../images/right1.png) ;
+    border: none;
+    z-index: 10;
+
+}
+.rig{
+    position:absolute;
+    top: 120px;
+    left: 110px;;
+    display: block;
+    width: 28px;
+    height: 45px;
+    background: url(../images/left1.png) ;
+    border: none;
+    z-index: 10;
+
+}
+.lefs{
+    position:absolute;
+    top: 120px;
+    right: 30px;;
+    display: block;
+    width: 28px;
+    height: 45px;
+    background: url(../images/right1.png) ;
+    border: none;
+    z-index: 10;
+
+}
+.rigs{
+    position:absolute;
+    top: 120px;
+    left: 110px;;
+    display: block;
+    width: 28px;
+    height: 45px;
+    background: url(../images/left1.png) ;
+    border: none;
+    z-index: 10;
+
+}
+.bao{
+    width: 1170px;
+    height: 188px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.baos{
+    width: 1170px;
+    height: 188px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/* 回到顶部 */
+#gotop{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 300px;
+    display: none;
+}
+.top{
+    width: 80px;
+    height: 300px;
+}
+.toplist{
+    width: 80px;
+    height: 300px;
+}
+.toplist li:nth-child(1) i{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+    color: #cccccc;
+}
+.toplist li:nth-child(2) i{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+    color: #cccccc;
+    position: relative;
+}
+.code{
+    position: absolute;
+    top: 50px;
+    left: -120px;
+    width: 140px;
+    height: 140px;
+    background: url(../images/5a025bb45ab694.png)no-repeat center;
+    background-size: cover;
+    display: none;
+}
+.toplist li:nth-child(3) i{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+    color: #cccccc;
+}
