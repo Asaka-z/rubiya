@@ -96,7 +96,7 @@
     opacity: 0;
     z-index: 1;
 }
-#slide2{
+#slides{
     left: 0;
     width:100%;
     position: absolute;
@@ -105,8 +105,16 @@
     background-color: rgba(0,0,0, 0.9);
     opacity: 0;
     overflow: hidden;
+    z-index: 100;
 }
 .sli{ 
+    position: relative;
+    width: 1170px;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+}
+.slis{ 
     position: relative;
     width: 1170px;
     height: 100%;
@@ -128,11 +136,33 @@
     text-align: center;
     margin: 0 40px 0 40px;
 }
+.iplists{
+    position: absolute;
+    left: 0px;
+    top: 57px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    height: 188px; 
+    width: 9999px;
+    color: #ffffff;
+}
+.iplists li{
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+.iplists li img{
+    width: 115px;
+    height: 130px;
+}
 .iplist li img{
     width: 115px;
     height: 130px;
 }
 .iplist li p{
+    margin-top: 20px;
+}
+.iplists li p{
     margin-top: 20px;
 }
 .lef{
@@ -159,7 +189,37 @@
     z-index: 10;
 
 }
+.lefs{
+    position:absolute;
+    top: 120px;
+    right: 30px;;
+    display: block;
+    width: 28px;
+    height: 45px;
+    background: url(../images/right1.png) ;
+    border: none;
+    z-index: 10;
+
+}
+.rigs{
+    position:absolute;
+    top: 120px;
+    left: 110px;;
+    display: block;
+    width: 28px;
+    height: 45px;
+    background: url(../images/left1.png) ;
+    border: none;
+    z-index: 10;
+
+}
 .bao{
+    width: 1170px;
+    height: 188px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.baos{
     width: 1170px;
     height: 188px;
     overflow: hidden;

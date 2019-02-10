@@ -169,8 +169,8 @@ var roll = (function(){
                     $('.pic4').delay(500).animate({ top: 170,opacity:1} ,1500);
                     $('.p1').delay(250).animate({ top: 100,opacity:1 } ,1000);
                 }
-                if(scroll > 3840){
-                    $('.txt6').delay(250).animate({ top: 300,opacity:1 } ,1000);
+                if(scroll > 4000){
+                    $('.txt6').delay(500).animate({ top: 300,opacity:1 } ,1000);
                 }
                 
             }

@@ -211,3 +211,200 @@
     height: 47px;
     background: url(../images/cnnic.png)no-repeat;
 }
+/*下滑框 */
+#slide{
+    left: 0;
+    width:100%;
+    position: absolute;
+    top: 83px;
+    height: 0px;
+    background-color: rgba(0,0,0, 0.9);
+    opacity: 0;
+    z-index: 1;
+}
+#slides{
+    left: 0;
+    width:100%;
+    position: absolute;
+    top: 83px;
+    height: 0px;
+    background-color: rgba(0,0,0, 0.9);
+    opacity: 0;
+    overflow: hidden;
+}
+.sli{ 
+    position: relative;
+    width: 1170px;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+}
+.slis{ 
+    position: relative;
+    width: 1170px;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+}
+.iplist{
+    position: absolute;
+    left: 0px;
+    top: 57px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    height: 188px; 
+    width: 9999px;
+    color: #ffffff;
+}
+.iplist li{
+    text-align: center;
+    margin: 0 -36px 0 40px;
+}
+.iplists{
+    position: absolute;
+    left: 0px;
+    top: 57px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    height: 188px; 
+    width: 9999px;
+    color: #ffffff;
+}
+.iplists li{
+    width: 115px;
+    text-align: center;
+    margin: 0 40px 0 40px;
+    box-sizing: border-box;
+}
+.iplists li img{
+    width: 115px;
+    height: 130px;
+    margin-left: -18px;
+}
+.iplist li img{
+    width: 115px;
+    height: 130px;
+}
+.iplist li a p{
+    margin:-60px 0 0 30px;
+}
+.iplists li p{
+    margin:-60px 0 0 30px;
+}
+.lef{
+    position:absolute;
+    top: 120px;
+    right: 30px;;
+    display: block;
+    width: 28px;
+    height: 45px;
+    background: url(../images/right1.png) ;
+    border: none;
+    z-index: 10;
+
+}
+.rig{
+    position:absolute;
+    top: 120px;
+    left: 110px;;
+    display: block;
+    width: 28px;
+    height: 45px;
+    background: url(../images/left1.png) ;
+    border: none;
+    z-index: 10;
+
+}
+.lefs{
+    position:absolute;
+    top: 120px;
+    right: 30px;;
+    display: block;
+    width: 28px;
+    height: 45px;
+    background: url(../images/right1.png) ;
+    border: none;
+    z-index: 10;
+
+}
+.rigs{
+    position:absolute;
+    top: 120px;
+    left: 110px;;
+    display: block;
+    width: 28px;
+    height: 45px;
+    background: url(../images/left1.png) ;
+    border: none;
+    z-index: 10;
+
+}
+.bao{
+    width: 1170px;
+    height: 188px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.baos{
+    width: 1170px;
+    height: 188px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/* 回到顶部 */
+#gotop{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 300px;
+    display: none;
+}
+.top{
+    width: 80px;
+    height: 300px;
+}
+.toplist{
+    width: 80px;
+    height: 300px;
+}
+.toplist li:nth-child(1) i{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+    color: #cccccc;
+}
+.toplist li:nth-child(2) i{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+    color: #cccccc;
+    position: relative;
+}
+.code{
+    position: absolute;
+    top: 50px;
+    left: -120px;
+    width: 140px;
+    height: 140px;
+    background: url(../images/5a025bb45ab694.png)no-repeat center;
+    background-size: cover;
+    display: none;
+}
+.toplist li:nth-child(3) i{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+    color: #cccccc;
+}

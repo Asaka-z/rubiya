@@ -2,68 +2,89 @@
 var slide = (function () {
     var $ul = $('.topnav');
     var $hua = $('#slide');
+    var $hua2 = $('#slides');
     var $sli = $('.sli');
     var $liAll = $ul.children('li');
     var $AAll = $liAll.children('a');
     var $minul = $('.iplist');
     var $left = $('.lef');
     var $rig = $('.rig');
-    var $ul2 = $('.iplist2');
     var $a2 = $AAll.eq(1);
     var val = $AAll.html();
-    console.log(val);
+    console.log($hua2);
     return {
         init() {
             this.event();
         },
         event() {
             var _this = this;
-            $AAll.eq(1).mouseover(function(){
+            $AAll.eq(1).mouseover(function () {
                 _this.shw();
             })
-            $AAll.eq(2).mouseover(function(){
-                _this.shw();
+            $AAll.eq(2).mouseover(function () {
+                $hua2.animate({ height: 300, opacity: 1 })
+                $('.slis').animate({ height: 300, opacity: 1 })
+                $('.iplists').show();
+                $('.lefs').show();
+                $('.rigs').show();
             })
             $liAll.eq(1).mouseleave(function () {
                 _this.hde();
             })
             $liAll.eq(2).mouseleave(function () {
-                _this.hde();
+                $hua2.animate({ height: 0 }, 150)
+                $('.slis').animate({ height: 0 }, 150)
+                $('.iplists').hide();
+                $('.lefs').hide();
+                $('.rigs').hide();
             })
             // $liAll.eq(2).hover(function(){
             //     _this.shw();
             // },function(){
             //     _this.hde();
             // })
-            $left.click(function(){
+            $left.click(function () {
                 //$minul.animate({left:10},150)
-                $minul.animate({left:-1000},500)
-                $minul.animate({left:-1050},150)
-                $minul.animate({left:-1000},150)
+                $minul.animate({ left: -1000 }, 500)
+                $minul.animate({ left: -1050 }, 150)
+                $minul.animate({ left: -1000 }, 150)
 
-                
+
             })
-            $rig.click(function(){
-                $minul.animate({left:10},500)
-                $minul.animate({left:0},150)
-                $minul.animate({left:10},150)
+            $('.rigs').click(function () {
+                $('.iplists').animate({ left: 10 }, 500)
+                $('.iplists').animate({ left: 0 }, 150)
+                $('.iplists').animate({ left: 10 }, 150)
                 //$ul2.animate({left:-1000},500)
-                
+
+            })
+            $('.lefs').click(function () {
+                //$('.iplists').animate({left:10},150)
+                $('.iplists').animate({ left: -1000 }, 500)
+                $('.iplists').animate({ left: -1050 }, 150)
+                $('.iplists').animate({ left: -1000 }, 150)
+
+
+            })
+            $rig.click(function () {
+                $minul.animate({ left: 10 }, 500)
+                $minul.animate({ left: 0 }, 150)
+                $minul.animate({ left: 10 }, 150)
+                //$ul2.animate({left:-1000},500)
+
             })
         },
         shw() {
             $hua.animate({ height: 300, opacity: 1 })
             $sli.animate({ height: 300, opacity: 1 })
             $minul.show();
-            $ul2.show();
             $left.show();
             $rig.show();
         },
         hde() {
             $hua.animate({ height: 0 }, 150)
-           $sli.animate({ height: 0 }, 150)
+            $sli.animate({ height: 0 }, 150)
             $minul.hide();
-            $ul2.hide();
             $left.hide();
             $rig.hide();
         }
