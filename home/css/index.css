@@ -105,7 +105,7 @@
     background-color: rgba(0,0,0, 0.9);
     opacity: 0;
     overflow: hidden;
-    z-index: 100;
+    z-index: 99;
 }
 .sli{ 
     position: relative;
@@ -134,7 +134,7 @@
 }
 .iplist li{
     text-align: center;
-    margin: 0 40px 0 40px;
+    margin: 0 -36px 0 40px;
 }
 .iplists{
     position: absolute;
@@ -148,22 +148,25 @@
     color: #ffffff;
 }
 .iplists li{
+    width: 115px;
     text-align: center;
     margin: 0 40px 0 40px;
+    box-sizing: border-box;
 }
 .iplists li img{
     width: 115px;
     height: 130px;
+    margin-left: -18px;
 }
 .iplist li img{
     width: 115px;
     height: 130px;
 }
-.iplist li p{
-    margin-top: 20px;
+.iplist li a p{
+    margin:-60px 0 0 30px;
 }
 .iplists li p{
-    margin-top: 20px;
+    margin:-60px 0 0 30px;
 }
 .lef{
     position:absolute;
@@ -228,7 +231,6 @@
 /* 三个框 */
 #kuan{
     height: 380px;
-    background: red;
 }
 .kua{
     height: 380px;
