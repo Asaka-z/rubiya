@@ -6,6 +6,7 @@ var login=(function(){
     var regPhone=document.querySelector(".reg-phone");
     var mobile=navTab.querySelector("#tab");
     var email=navTab.querySelector("#email");
+<<<<<<< HEAD
     var username = document.querySelector("#username");
     var phone=document.querySelector("#moblie"); 
     var yz=document.querySelector("#mobile_captcha");
@@ -13,6 +14,15 @@ var login=(function(){
         init(){
             this.event();
             this.time();
+=======
+    // var username = document.querySelector("#username");
+    var phone=document.querySelector("#moblie");
+    var yz=document.querySelector("#mobile_captcha");
+    // var delu=document.querySelector("#login_btn_id");
+    return{
+        init(){
+            this.event();
+>>>>>>> 7367fc770f754c1dd8aa92fea07f0356615c71b8
         },
         event(){
             var _this=this;
@@ -32,13 +42,21 @@ var login=(function(){
                 email.className="tab-btn ";
             },false);
              
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 7367fc770f754c1dd8aa92fea07f0356615c71b8
             username.onblur = function () {
                 var p = this.nextElementSibling;
                 if (this.value== '') {
                     p.innerHTML = '请填写信息!';   
                     return;
                 }
+<<<<<<< HEAD
                 var reg = /^[A-Za-z_]{6,10}$/
+=======
+                var reg = /^[A-Za-z_]{6,10}$||^1[35789]\d{9}$/
+>>>>>>> 7367fc770f754c1dd8aa92fea07f0356615c71b8
                 if (reg.test(this.value)) {
                     p.innerHTML = '验证成功';
                 }
@@ -61,7 +79,11 @@ var login=(function(){
                 }
             }
             yz.onblur = function () {
+<<<<<<< HEAD
                 var p = this.nextElementSibling
+=======
+                var p = yz.parentElement.lastElementChild;
+>>>>>>> 7367fc770f754c1dd8aa92fea07f0356615c71b8
                 if (this.value == '') {
                     p.innerHTML = '请填写信息!';
                     return;
@@ -74,6 +96,42 @@ var login=(function(){
                     p.innerHTML = "验证码不正确，请重新输入";
                 }
             }
+<<<<<<< HEAD
         }
     }
 }())
+=======
+            //DOMContentLoaded就是dom内容加载完毕。
+        document.addEventListener('DOMContentLoaded', function() {
+            //1.找节点
+            var username = document.querySelector('#username');
+            // var isok = false;
+            var btn = document.querySelector('#login_btn_id'); //name top 不能用作id名
+            var psw = document.querySelector('#password');
+
+            btn.onclick = function() {
+                var val1 = username.value.trim();
+                var val2 = psw.value.trim();
+                if(val1 && val2) {
+                    //非空
+                    var url = '../php/login.php';
+                    var data = `username=${val1}&psw=${val2}&time=${new Date()}`;
+                    ajax('POST', url, data, function(str) {
+                        console.log(data);
+                        if(str=='yes'){
+                            location.href='../../home/html/index.html';
+                        }else{
+                            alert("账户/密码不正确");
+                        }
+                    });
+                } else {
+                    alert('信息不完整');
+                }
+            }
+        });
+        }
+    }
+
+}())
+
+>>>>>>> 7367fc770f754c1dd8aa92fea07f0356615c71b8

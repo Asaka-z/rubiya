@@ -275,19 +275,15 @@
 	flex-shrink: 0;
 	margin-bottom: 12px;
 }
-
+/*滑到图片运动*/
 .p_t {
 	width: 290px;
 	height: 382px;
 	text-align: center;
 	transition: all 0.2s linear;
 	box-sizing: border-box;
-	padding-top: 54px;
+	padding-top: 28px;
 }
-
-
-/*滑到图片运动*/
-
 .p_t:hover {
 	transform: translateY(-10px);
 }

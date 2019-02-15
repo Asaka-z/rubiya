@@ -6,11 +6,18 @@ a {
     color: #f27f02;
     text-decoration: none;
 }
+<<<<<<< HEAD
 a {
     color: #999;
     text-decoration: none;
     cursor: pointer;
     outline: 0 none;
+=======
+a{
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+>>>>>>> 7367fc770f754c1dd8aa92fea07f0356615c71b8
 }
 * {
     box-sizing: border-box;
