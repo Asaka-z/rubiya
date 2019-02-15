@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+
+a {
+    color: #f27f02;
+    text-decoration: none;
+}
+a {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0 none;
+}
+* {
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+label {
+    cursor: default;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    font-family: "Microsoft Yahei","微软雅黑",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #666;
+    background: #fff;
+    position: relative;
+}
+body,html{
+    background: #F5F5F5;
+}
+button, input, select, textarea {
+    font-size: 1em;
+    margin: 0;
+    font-family: tahoma, arial, simsun, sans-serif;  /*规定字体的系列*/
+    color: #484848;
+}
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    outline-style: none;
+    outline-width: 0pt;
+    resize: none;
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+form,ul,ol,dl,dd,p{
+    margin: 0;
+    padding: 0;
+}
+ol, li, ul, dl, dt, dd {
+    list-style: none;
+}
+div{
+    display: block;
+}
+Form{
+    width: 370px;
+    margin: 0 auto;
+}
+a {
+    color: #f27f02;
+    text-decoration: none;
+}
+a {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0 none;
+}
+#container{
+    margin:0 auto;
+    margin-top:60px;
+    padding-bottom: 80px;
+    margin-bottom:40px;  
+    width: 850px;
+    background:#fff;
+}
+#nb-footer {
+    padding: 10px 0 50px 0;
+}
+#nb-footer {
+    padding: 30px 0 50px 0;
+    margin: 0 auto;
+    z-index: 9;
+    /* font-family: 'Shscn'; */
+}
+.nubia-copyright {
+    text-align: center;
+    margin: 0 auto;
+}
+.nubia-copyright .nb-footer-info a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #ccc;
+}
+.nubia-copyright .nb-footer-info {
+    color: #ccc;
+}

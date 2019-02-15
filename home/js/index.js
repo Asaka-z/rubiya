@@ -188,7 +188,7 @@ var banner = (function(){
                 index++;
                _this.changeImg();
                _this.changeDots();
-            },1000) 
+            },3000) 
         },
         //图片切换
         changeImg(){

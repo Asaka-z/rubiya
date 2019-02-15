@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/regsiter.css" type="text/css" />
+</head>
+<body>
+    <section id="container">
+        <section class="logo">
+        </section>
+        <form action=" " method="post" id="registerform">
+            <input type="hidden" name="register_tag" value="">
+            <div class="navTab" id="tab_nav">
+                <label for="tab-mobile" class="tab-btn cur" style="margin-right:8px"><input type="radio" name="myradio" id="tab-mobile" value="mobile" checked="checked"></label>
+            </div>
+    
+            <div class="navCon" id="tab_con">
+                <div class="reg-phone">
+                    <dl>
+                        <dd>
+                            <div class="input-con"><input type="text" id="mobile" name="mobile" placeholder="请输入手机号码" datatype="m" errormsg="手机号码格式错误"> </div>
+                            <span class="icon-id"></span>
+                            <!-- <div class="checktip"><span class="Validform_checktip"></span></div> -->
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="password" id="passwordMobile" placeholder="密码为6-16个字符（数字、字母、符号至少包含两种）" datatype="s6-16" errormsg="密码为6-16个（数字、字母、符号至少包含</br>两种）">
+                                <span class="icon-id"></span>
+                                <input type="hidden" id="passwordMobile_md5" name="passwordMobile">
+                            </div>
+                            <div class="checktip"><span class="Validform_checktip"></span></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="text" id="mobile_captcha" name="mobile_captcha" placeholder="请输入验证码（不区分大小写）" ajaxurl="/verification/check2.action" errormsg="验证码有错误" style="width:235px;">
+                                
+                                <div class="capcha capcha-mobile">
+                                    <a href="javascript:;"><img id="mobile_captchaImg" src="../images/draw.jpg" alt=""></a>
+                                </div>
+                              
+                            </div>
+                            <span class="check_tips succ_tips" id="mobile_captcha_succ_tag"></span>
+                            <span class="check_tips error_tip" id="mobile_captcha_error_tag"></span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="text" id="mobileValidateCode" name="mobileValidateCode" placeholder="请输入手机收到的验证码">
+                                <input type="button" value="获取验证码" class="btn-code" id="btn-code-mobile">
+                            </div>
+                            <div class="checktip"><span class="Validform_checktip Validform_wrong"></span></div>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="reg-mail" style="display:none;">
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="text" id="email" name="email" placeholder="请输入常用邮箱地址" datatype="e" errormsg="邮箱地址格式错误" ajaxurl="/login/checkEmail2.action">
+                            </div>
+                            <div class="checktip"><span class="Validform_checktip"></span></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="password" id="passwordEmail" placeholder="密码为6-16个字符（数字、字母、符号至少包含两种）" datatype="s6-16" errormsg="密码为6-16个（数字、字母、符号至少包含</br>两种）">
+                                <input type="hidden" id="passwordEmail_md5" name="passwordEmail">
+                            </div>
+                            <div class="checktip"><span class="Validform_checktip"></span></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="text" id="email_captcha" name="captcha" placeholder="请输入验证码（不区分大小写）" ajaxurl="/verification/check2.action" errormsg="验证码有错误" style="width:235px;">
+                                <div class="capcha capcha-email">
+                                    <a href="javascript:;"><img id="email_captchaImg" src="../images/govIcon.png" alt=""></a>
+                                </div>
+                            </div>
+                            <span class="check_tips succ_tips" id="email_captcha_succ_tag"></span>
+                            <span class="check_tips error_tip" id="email_captcha_error_tag"></span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="text" id="emailValidateCode" name="emailValidateCode" placeholder="请输入邮箱收到的验证码">
+                                <input type="button" value="获取验证码" class="btn-code" id="btn-code-email">
+                            </div>
+                            <div class="checktip"><span class="Validform_checktip Validform_wrong"></span></div>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="regfooterbar" style="width:360px;margin-left:8px;">
+                <div class="safe">
+                    <div id="theAgreement" style="text-align:left;margin-bottom:10px">
+                        <input type="checkbox" checked="checked" value="1" title="需要同意《用户服务协议》" name="agreement" id="agreement">我已阅读并接受
+                        <a href="" title="用户协议" target="_blank">用户协议</a>和
+                        <a href="" title="隐私政策" target="_blank">隐私政策</a>
+                    </div>
+                    <div id="theAgreementAdvice" class="hint clear"></div>
+                </div>
+                <div class="buttons">
+                    <input type="hidden" name="back_url" value="">
+                    <input type="submit" class="btn" value="提    交" name="regButton" id="regButton">
+                </div>
+                <p style="text-align:right;">已有账号，<a href="login.html" style="color:#e8380d;">直接登录</a></p>
+            </div>
+        </form>
+    </section>
+    <div id="nb-footer">
+            <div class="nubia-copyright">
+                <p class="nb-footer-info"> 2012-2018 努比亚 版权所有 <a href="">粤ICP备10006213号-2</a> ICP经营许可证编号：粤B2-20120688<a href="../../login/images/govIcon.png" target="_blank" style="margin-right: 5px;margin-left: 3px;"><img src="../images/govIcon.png" title="深圳市市场监督管理局企业主体身份公示" alt="深圳市市场监督管理局企业主体身份公示" border="0" style="border-width:0px;border:hidden; border:none;vertical-align: middle;height: 18px;"></a> 努比亚技术有限公司</p>
+            </div>
+    </div>
+    <script src="../js/regsiter.js"></script>
+    <script>
+        regsiter.init();
+    </script>
+</body>
+</html>

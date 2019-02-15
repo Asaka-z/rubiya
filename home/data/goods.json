@@ -1,0 +1,117 @@
+[
+	{
+		"type": "redmagicmars",
+		"goods_type": [
+			{
+				"code": "RNG8gb128gb",
+				"name": "RNG六周年纪念版",
+				"img": "../images/small/154649651526.png"
+			},
+			{
+				"code": "red8gb128gb",
+				"name": "红魔Mars烈艳红",
+				"img": "../images/small/154502714090.png"
+			},
+			{
+				"code": "camouflage10gb256gb",
+				"name": "红魔Mars迷彩版",
+				"img": "../images/small/154502710715.png"
+			},
+			{
+				"code": "black8gb128gb",
+				"name": "红魔Mars曜石黑",
+				"img": "../images/small/154397697437.png"
+			}
+		]
+	},
+	{
+		"type": "redmagic",
+		"goods_type": [
+			{
+				"code": "camouflage",
+				"name": "红魔 迷彩版",
+				"img": "../images/small/153621560834.png"
+			},
+			{
+				"code": "red",
+				"name": "红魔 烈艳红",
+				"img": "../images/small/153621556673.png"
+			},
+			{
+				"code": "black",
+				"name": "红魔 曜石黑",
+				"img": "../images/small/5ad88af99df2092.png"
+			}
+		]
+	},
+	{
+		"type": "nubiaX",
+		"goods_type": [
+			{
+				"code": "blue8gb256gb",
+				"name": "X蓝金版",
+				"img": "../images/small/15464964476.png"
+			},
+			{
+				"code": "star8gb512gb",
+				"name": "X星空典藏版",
+				"img": "../images/small/154442241494.png"
+			},
+			{
+				"code": "blue8gb128gb",
+				"name": "X海光蓝",
+				"img": "../images/small/154442237416.png"
+			},
+			{
+				"code": "black8gb256gb",
+				"name": "X黑金",
+				"img": "../images/small/154296741317.png"
+			},
+			{
+				"code": "gray8gb128gb",
+				"name": "X深空灰",
+				"img": "../images/small/154097593658.png"
+			}
+		]
+	},
+	{
+		"type": "nubiaz18",
+		"goods_type": [
+			{
+				"code": "red8gb128gb",
+				"name": "Z18星云红",
+				"img": "../images/small/153742738947.jpg"
+			},
+			{
+				"code": "black8gb128gb",
+				"name": "Z18极夜黑",
+				"img": "../images/small/153621470840.png"
+			},
+			{
+				"code": "black8gb128gb",
+				"name": "Z18极夜黑",
+				"img": "../images/small/153621470840.png"
+			},
+			{
+				"code": "sky8gb128gb",
+				"name": "Z18梵高星空典藏版",
+				"img": "../images/small/15374275143.jpg"
+			}
+		]
+	},
+	{
+		"type": "nubiaz18mini",
+		"goods_type": [
+			{
+				"code": "blue6gb64gb",
+				"name": "Z18mini 青瓷蓝",
+				"img": "../images/small/5ad95436bb00b20.png"
+			},
+			{
+				"code": "black6gb64gb",
+				"name": "Z18mini 钻石黑",
+				"img": "../images/small/152343282461.png"
+			}
+		]
+	}
+]

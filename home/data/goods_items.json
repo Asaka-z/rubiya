@@ -1,0 +1,130 @@
+[
+	{	
+		"category": "hot",
+		"type": "redmagicmars",
+		"name": "红魔Mars电竞手机",
+		"trait": "骁龙845",
+		"edition": "red6gb64gb",
+		"price": "2699",
+		"img": "../images/goods/154683890326.jpg"
+	},
+	{	
+		"category": "hot",
+		"type": "nubiaX",
+		"name": "努比亚X",
+		"trait": "双屏黑科技",
+		"edition": "gray6gb64gb",
+		"price": "3299",
+		"img": "../images/goods/154340896452.jpg"
+	},
+	{	
+		"category": "hot",
+		"type": "nubiaz18",
+		"name": "Z18",
+		"trait": "无边水滴屏",
+		"edition": "black6gb64gb",
+		"price": "2799",
+		"img": "../images/goods/154139640171.jpg"
+	},
+	{	
+		"category": "hot",
+		"type": "nubiaredmagic",
+		"name": "红魔电竞手机",
+		"trait": "不红魔，不成活",
+		"edition": "red6gb64gb",
+		"price": "2299",
+		"img": "../images/goods/153674218281.jpg"
+	},
+	{	
+		"category": "delicate",
+		"type": "nubiaz18mini",
+		"name": "Z18mini",
+		"trait": "2400万双摄",
+		"edition": "blue6gb64gb",
+		"price": "1499",
+		"img": "../images/goods/154123209586.jpg"
+	},
+	{	
+		"category": "delicate",
+		"type": "nubiav18",
+		"name": "V18 曜石黑",
+		"trait": "6吋全面屏",
+		"edition": "black4gb64gb",
+		"price": "999",
+		"img": "../images/goods/152170464783.jpg"
+	},
+	{	
+		"category": "delicate",
+		"type": "nubiaz17s",
+		"name": "Z17S黑金",
+		"trait": "全面屏无边框",
+		"edition": "black6gb64gb2",
+		"price": "1999",
+		"img": "../images/goods/15117611441.jpg"
+	},
+	{	
+		"category": "delicate",
+		"type": "nubiaz17minis",
+		"name": "Z17miniS深海蓝",
+		"trait": "四摄拍照",
+		"edition": "deepblack6gb64gb",
+		"price": "1299",
+		"img": "../images/goods/151176140231.jpg"
+	},
+	{	
+		"category": "parts",
+		"size": "big",
+		"type": "1119",
+		"name": "",
+		"price": "",
+		"img": "../images/goods/152904366432.jpg"
+	},
+	{	
+		"category": "parts",
+		"size": "small",
+		"type": "819",
+		"name": "努比亚二合一数据线",
+		"price": "59",
+		"img": "../images/goods/154139641576.jpg"
+	},
+	{	
+		"category": "parts",
+		"size": "small",
+		"type": "800",
+		"name": "努比亚电源适配器",
+		"price": "89",
+		"img": "../images/goods/15413964265.jpg"
+	},
+	{	
+		"category": "parts",
+		"size": "small",
+		"type": "1107",
+		"name": "努比亚红魔降噪耳机",
+		"price": "299",
+		"img": "../images/goods/150450759557.jpg"
+	},
+	{	
+		"category": "parts",
+		"size": "small",
+		"type": "915",
+		"name": "努比亚蓝牙耳机",
+		"price": "79",
+		"img": "../images/goods/154684132723.jpg"
+	},
+	{	
+		"category": "parts",
+		"size": "small",
+		"type": "972",
+		"name": "努比亚便携移动电源",
+		"price": "129",
+		"img": "../images/goods/154185665444.jpg"
+	},
+	{	
+		"category": "parts",
+		"size": "small",
+		"type": "750",
+		"name": "圈铁耳机",
+		"price": "99",
+		"img": "../images/goods/150450759557.jpg"
+	}
+]

@@ -1,0 +1,312 @@
+[
+	{
+		"type": "nubiaX",
+		"code": "phone",
+		"name": "nubiaX",
+		"info": "双屏黑科技，骁龙845",
+		"edition": [
+			{
+				"sid": "s1",
+				"color_name": "深空灰",
+				"ram": "6GB+64GB",
+				"price": "3299.00",
+				"img": ["public/images/home/buy/nubiaX/15409757545.png",
+						"public/images/home/buy/nubiaX/5c0ddd170ab566.png",
+						"public/images/home/buy/nubiaX/154097575510.png",
+						"public/images/home/buy/nubiaX/154097575547.png"
+				]
+			},
+			{
+				"sid": "s2",
+				"color_name": "黑金",
+				"ram": "8GB+256GB",
+				"price": "4199.00",
+				"img": ["public/images/home/buy/nubiaX/154287550264.png",
+						"public/images/home/buy/nubiaX/154287550238.png",
+						"public/images/home/buy/nubiaX/154287550252.png",
+						"public/images/home/buy/nubiaX/154287550399.png"
+				]
+			},
+			{
+				"sid": "s3",
+				"color_name": "海光蓝",
+				"ram": "8GB+128GB",
+				"price": "3799.00",
+				"img": ["public/images/home/buy/nubiaX/5c0ddd178474024.png",
+						"public/images/home/buy/nubiaX/5c0ddd17799a582.png",
+						"public/images/home/buy/nubiaX/5c0ddd170ab566.png",
+						"public/images/home/buy/nubiaX/5c0ddd17004e83.png"
+				]
+			},
+			{
+				"sid": "s4",
+				"color_name": "星空典藏版（蓝金梵高版",
+				"ram": "8GB+512GB",
+				"price": "5299.00",
+				"img": ["public/images/home/buy/nubiaX/5c0ddd17352fe58.png",
+						"public/images/home/buy/nubiaX/5c0ddd1738e4071.png",
+						"public/images/home/buy/nubiaX/5c0ddd1716cf655.png",
+						"public/images/home/buy/nubiaX/5c0ddd170ee0e35.png"
+				]
+			},
+			{
+				"sid": "s5",
+				"color_name": "蓝金版",
+				"price": "4299.00",
+				"ram": "8GB+256GB",
+				"img": ["public/images/home/buy/nubiaX/5c2315537dc9683.jpg",
+						"public/images/home/buy/nubiaX/5c2315536996994.jpg",
+						"public/images/home/buy/nubiaX/5c23155339c2075.jpg",
+						"public/images/home/buy/nubiaX/5c231553808ff8.jpg"
+				]
+			}
+		],
+		"intro": [
+			"public/images/home/buy/nubiaX/5bd974818a49d94.jpg",
+			"public/images/home/buy/nubiaX/5c330e0b90e077.jpg",
+			"public/images/home/buy/nubiaX/5bda6db97921042.jpg",
+			"public/images/home/buy/nubiaX/5bda6db9b179782.jpg",
+			"public/images/home/buy/nubiaX/5bd9748ba1a1d98.jpg",
+			"public/images/home/buy/nubiaX/5bd9748ba19a317.jpg",
+			"public/images/home/buy/nubiaX/5bd9748c1e63230.jpg",
+			"public/images/home/buy/nubiaX/5bd9748c1085837.jpg",
+			"public/images/home/buy/nubiaX/5bd97485656ae74.jpg",
+			"public/images/home/buy/nubiaX/5bd9748e102e010.jpg",
+			"public/images/home/buy/nubiaX/5bd9748440ef741.jpg",
+			"public/images/home/buy/nubiaX/5bd974bb5ab4d97.jpg",
+			"public/images/home/buy/nubiaX/5bd9748e9996d35.jpg",
+			"public/images/home/buy/nubiaX/5bd9749297e2344.jpg",
+			"public/images/home/buy/nubiaX/5bd9748f7f0e091.jpg",
+			"public/images/home/buy/nubiaX/5bd974884ea5d55.jpg",
+			"public/images/home/buy/nubiaX/5bd97486ec48296.jpg",
+			"public/images/home/buy/nubiaX/5bd97487d4e2153.jpg",
+			"public/images/home/buy/nubiaX/5bd9749103e8013.jpg",
+			"public/images/home/buy/nubiaX/5bd97493118c884.jpg",
+			"public/images/home/buy/nubiaX/5bd974932a4a436.jpg",
+			"public/images/home/buy/nubiaX/5bd97490c842849.jpg",
+			"public/images/home/buy/nubiaX/5bd974897e0c537.jpg",
+			"public/images/home/buy/nubiaX/5c088cda4e32767.jpg"
+		],
+		"para": [
+			"public/images/home/buy/nubiaX/5c0deb45431cd21.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e1d10531.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e414cc7.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e2061788.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e3d4e943.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e2e52d73.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e5a39c44.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e5f13c60.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e638fb13.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e7625775.jpg",
+			"public/images/home/buy/nubiaX/5c21d72173d1c15.jpg"
+		]
+	},
+	{
+		"type": "redmagicmars",
+		"code": "phone",
+		"name": "红魔Mars电竞手机",
+		"info": "【1月14号10点】10G+256GB迷彩版开售",
+		"edition": [
+			{
+				"sid": "s6",
+				"color_name": "曜石黑",
+				"ram": "8GB+128GB",
+				"price": "3199.00",
+				"img": ["public/images/home/buy/redmars/5c07666599c1850.jpg",
+						"public/images/home/buy/redmars/5c076665749f655.jpg",
+						"public/images/home/buy/redmars/5c0766655947638.jpg",
+						"public/images/home/buy/redmars/5c07666574f8079.jpg"
+				]
+			},
+			{
+				"sid": "s7",
+				"color_name": "迷彩色",
+				"ram": "10GB+256GB",
+				"price": "3999.00",
+				"img": ["public/images/home/buy/redmars/5c08bcc521d5283.jpg",
+						"public/images/home/buy/redmars/5c08bcc520b7c7.jpg",
+						"public/images/home/buy/redmars/5c08bcc520b7c7.jpg",
+						"public/images/home/buy/redmars/5c08bcc5168a879.jpg"
+				]
+			},
+			{
+				"sid": "s8",
+				"color_name": "烈艳红",
+				"ram": "8GB+128GB",
+				"price": "3199.00",
+				"img": ["public/images/home/buy/redmars/5c161f447c1ff9.png",
+						"public/images/home/buy/redmars/5c161f4678f2f52.png",
+						"public/images/home/buy/redmars/5c161f4679b1965.png",
+						"public/images/home/buy/redmars/5c161f468532781.png"
+				]
+			},
+			{
+				"sid": "s9",
+				"color_name": "RNG六周年纪念版",
+				"ram": "8GB+128GB",
+				"price": "3299.00",
+				"img": ["public/images/home/buy/redmars/5c24a625576fc83.jpg",
+						"public/images/home/buy/redmars/5c24a62555e1737.jpg",
+						"public/images/home/buy/redmars/5c24a6252ebe849.jpg",
+						"public/images/home/buy/redmars/5c24a6255d2dd6.jpg"
+				]
+			}
+		],
+		"intro": [
+			"public/images/home/buy/redmars/5c0491dc7f60628.jpg",
+			"public/images/home/buy/redmars/5bfe5ec52463412.jpg",
+			"public/images/home/buy/redmars/5bfe5ec54b1d970.jpg",
+			"public/images/home/buy/redmars/5bfe5ec56949481.jpg",
+			"public/images/home/buy/redmars/5bfe5ec66030d48.jpg",
+			"public/images/home/buy/redmars/5bfe5ec52a7bf3.jpg",
+			"public/images/home/buy/redmars/5bfe5ec04510624.jpg",
+			"public/images/home/buy/redmars/5bfe5ec0895a869.jpg",
+			"public/images/home/buy/redmars/5bfe5ec5b319267.jpg",
+			"public/images/home/buy/redmars/5bfe5ec56edfd37.jpg",
+			"public/images/home/buy/redmars/5bfe5ec5bfa8215.jpg",
+			"public/images/home/buy/redmars/5bfe5ec4c3f7037.jpg",
+			"public/images/home/buy/redmars/5bfe5ec4e856177.jpg",
+			"public/images/home/buy/redmars/5bfe5ec5a3d6788.jpg",
+			"public/images/home/buy/redmars/5bfe5ec0be43723.jpg",
+			"public/images/home/buy/redmars/5bfe5ec0dc0c922.jpg",
+			"public/images/home/buy/redmars/5bffae0a4f9a622.jpg",
+			"public/images/home/buy/redmars/5bfe5ec05629e55.jpg",
+			"public/images/home/buy/redmars/5bfe7da629fa427.jpg",
+			"public/images/home/buy/redmars/5bfe7da75324078.jpg",
+			"public/images/home/buy/redmars/5bfe5ec52f2cf51.jpg",
+			"public/images/home/buy/redmars/5bfe5ec5eb24637.jpg"
+		],
+		"para": [
+			"public/images/home/buy/nubiaX/5c0deb45431cd21.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e1d10531.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e414cc7.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e2061788.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e3d4e943.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e2e52d73.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e5a39c44.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e5f13c60.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e638fb13.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e7625775.jpg",
+			"public/images/home/buy/nubiaX/5c21d72173d1c15.jpg"
+		]
+	},
+	{
+		"type": "nubiaz18",
+		"code": "phone",
+		"name": "Z18",
+		"info": "无边水滴屏、AI新旗舰",
+		"edition": [
+			{
+				"sid": "s10",
+				"color_name": "极夜黑",
+				"ram": "6GB+64GB",
+				"price": "2799.00",
+				"img": ["public/images/home/buy/Z18/5c00a096b5cab81.jpg",
+						"public/images/home/buy/Z18/153612810275.png",
+						"public/images/home/buy/Z18/153612810392.png",
+						"public/images/home/buy/Z18/153612810364.png"
+				]
+			},
+			{
+				"sid": "s11",
+				"color_name": "星云红",
+				"ram": "8GB+128GB",
+				"price": "3299.00",
+				"img": ["public/images/home/buy/Z18/153663464124.png",
+						"public/images/home/buy/Z18/153663464031.png",
+						"public/images/home/buy/Z18/153663464068.png",
+						"public/images/home/buy/Z18/153663464172.png"
+				]
+			},
+			{
+				"sid": "s12",
+				"color_name": "梵高星空典藏版",
+				"ram": "8GB+128GB",
+				"price": "3599.00",
+				"img": ["public/images/home/buy/Z18/153724840051.png",
+						"public/images/home/buy/Z18/153724839913.png",
+						"public/images/home/buy/Z18/153724839919.png",
+						"public/images/home/buy/Z18/153725127583.png"
+				]
+			}
+		],
+		"intro": [
+			"public/images/home/buy/Z18/5b8f7b6f6863a35.jpg",
+			"public/images/home/buy/Z18/5b90839aef84791.jpg",
+			"public/images/home/buy/Z18/5b920d026ab3420.jpg",
+			"public/images/home/buy/Z18/5b8f7b6c5160696.jpg",
+			"public/images/home/buy/Z18/5b90c36b3b53091.jpg",
+			"public/images/home/buy/Z18/5b8f7b70c74d032.jpg",
+			"public/images/home/buy/Z18/5b8f7b6e866e184.jpg",
+			"public/images/home/buy/Z18/5b9f50d766a6993.jpg",
+			"public/images/home/buy/Z18/5b9f51aadddb432.jpg",
+			"public/images/home/buy/Z18/5b8f99ad60fc624.jpg",
+			"public/images/home/buy/Z18/5b8f7b6eb2f7a3.jpg",
+			"public/images/home/buy/Z18/5b8f7b6d4054467.jpg",
+			"public/images/home/buy/Z18/5b8f7b6d4882b92.jpg",
+			"public/images/home/buy/Z18/5b8f7b6b5c49947.jpg",
+			"public/images/home/buy/Z18/5c088e951bc4274.jpg"
+		],
+		"para": [
+			"public/images/home/buy/nubiaX/5c0deb45431cd21.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e1d10531.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e414cc7.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e2061788.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e3d4e943.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e2e52d73.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e5a39c44.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e5f13c60.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e638fb13.jpg",
+			"public/images/home/buy/nubiaX/5bda6b6e7625775.jpg",
+			"public/images/home/buy/nubiaX/5c21d72173d1c15.jpg"
+		]
+	},
+	{
+		"type": "819",
+		"code": "parts",
+		"name": "努比亚二合一数据线",
+		"edition": [
+			{
+				"sid": "b10",
+				"color_name": "红色",
+				"price": "59.00",
+				"img": ["public/images/home/buy/819/149025281841.jpg"
+				]
+			}
+		],
+		"intro": [
+			"public/images/home/buy/819/58c8ce1636fb934.jpg",
+			"public/images/home/buy/819/58c8ce160c74538.jpg",
+			"public/images/home/buy/819/58c8ce1647a1c42.jpg",
+			"public/images/home/buy/819/58c8ce165800a30.jpg"
+		]
+	},
+	{
+		"type": "972",
+		"code": "parts",
+		"name": "便携移动电源 ",
+		"edition": [
+			{
+				"sid": "b11",
+				"color_name": "灰白",
+				"price": "129.00",
+				"img": [
+					"public/images/home/buy/972/152118859076.jpg",
+					"public/images/home/buy/972/152118859035.jpg",
+					"public/images/home/buy/972/152118859018.jpg",
+					"public/images/home/buy/972/152118859076.jpg"
+				]
+			}
+		],
+		"intro": [
+			"public/images/home/buy/972/5aab7dea0256f4.jpg",
+			"public/images/home/buy/972/5aab7ded2c9225.jpg",
+			"public/images/home/buy/972/5aab7de967d7916.jpg",
+			"public/images/home/buy/972/5aab7dece448d77.jpg",
+			"public/images/home/buy/972/5aab7de9d3bb677.jpg",
+			"public/images/home/buy/972/5aab7dea00a4326.jpg",
+			"public/images/home/buy/972/5aab7deba485b48.jpg",
+			"public/images/home/buy/972/5aab7ded03f2166.jpg"
+		]
+	}
+]
