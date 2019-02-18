@@ -13,29 +13,9 @@ var regsiter=(function(){
             var _this=this;
               phone.onblur = function () {
                 var p = this.nextElementSibling;
-                console.log(p);
                 if (this.value == '') {
                     p.innerHTML = '请填写信息!';
                     return;
-                }
-                var reg = /^1[35789]\d{9}$/
-                if (reg.test(this.value)) {
-                    sendAjax('../php/regsiter.php',{
-                        data:{
-                            username:this.value,
-                        },
-                        success(res){
-                            console.log(res);  
-                            res = JSON.parse(res);
-                            if(res.code == 0){
-                                //用户不存
-                                $p[0].innerHTML = '';
-                            }else{
-                                //用户名已经存在
-                                $p[0].innerHTML = '手机号码已注册';
-                          }  
-                        }
-                    });
                 }
                 else {
                     p.innerHTML = "手机号码格式错误";
@@ -46,6 +26,10 @@ var regsiter=(function(){
                 if (this.value == '') {
                     p.innerHTML = '请填写信息!';
                     return;
+                }
+                var reg=/^(\w){6,20}$/;
+                if(reg.test(this.value)){
+                    p.innerHTML='验证成功'
                 }
             }
             number.onclick = function () {
@@ -75,17 +59,21 @@ var regsiter=(function(){
                     span.innerHTML = '验证失败';
                 }
             }
-            btCode.onclick = function () {
-                 btCode.value=60;
-                 var timer=setInterval(function(){
-                    if(btCode.value == 1) {
-                       clearInterval(timer);
+            var timer=null;
+            btCode.onclick = function () {   
+                var time=60;
+                 timer=setInterval(function(){
+                     console.log(time );
+                    if(time <= 1) {
+                        btCode.value="获取验证码";
+                        btCode.disabled=false;
+                        clearInterval(timer);
+                    }else {
+                        btCode.disabled=true;
+                        time --;
+                        btCode.value=time+'s';
                     }
-                    btCode.value--;
-                    if(btCode.value == 0){
-                        btCode.value="获取验证码"
-                      }
-                },1000);
+                },100);
                 
             }
             phoneCode.onblur = function () {
@@ -94,9 +82,54 @@ var regsiter=(function(){
                     p.innerHTML = '请填写信息!';
                     return;
                 }
-            }     
+                if(this.value != ''){
+                    p.innerHTML = '验证成功';
+                }
+            }
+            document.addEventListener('DOMContentLoaded', function() {
+                var usninf = document.querySelector('.icon-id');
+                var isok = false;
+                var btn = document.querySelector('#regButton'); //name top 不能用作id名
+
+                //验证用户名是否存在：不存在才能注册
+                phone.onblur = function() {
+                    var val = phone.value.trim(); //失去焦点的时候拿到表单数据
+                    //发送请求
+                    var url = '../php/checkname.php';
+                    var data = `username=${val}&time=${new Date()}`;
+                    ajax('POST', url, data, function(str) { //这个形参会接收成功得到的数据
+                        console.log(str); //
+                        if(str == '0') { //已存在
+                            usninf.innerHTML = '用户名不可用';
+                        } else {
+                            //不存在
+                            usninf.innerHTML = '用户名可用';
+                            isok = true;
+                        }
+                    });
+                }
+
+                //注册功能
+                btn.onclick = function() {
+                    if(isok) {
+                        //可以注册的用户名
+                        var val1 = phone.value.trim();
+                        var val2 = password.value.trim();
+                        //发送请求
+                        var url = '../php/regsiter.php';
+                        var data = `phone=${val1}&psw=${val2}&time=${new Date()}`;
+                        ajax('POST', url, data, function(str) {
+                            console.log(str);
+                            if(str == 'yes') { //成功注册跳转到登陆页面
+                                location.href = 'login.html';
+                            } else {
+                                alert('注册失败');
+                            }
+                        });
+                    }
+                }
+            }); 
+                 
         }
-}
+    }
 }())
-
-

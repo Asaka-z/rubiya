@@ -4,9 +4,8 @@
      */
     //连接数据库
     include 'connect.php';
-    
     //接收数据
-    $name=isset($_POST['username']) ? $_POST['username'] :'';
+    $name=isset($_POST['phone']) ? $_POST['phone'] :'';
     $psw=isset($_POST['psw']) ? $_POST['psw'] :'';
  
     //  echo $name;//成功接收了

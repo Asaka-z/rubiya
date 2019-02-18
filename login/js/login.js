@@ -41,7 +41,7 @@ var login = (function () {
                     p.innerHTML = '请填写信息!';
                     return;
                 }
-                var reg = /^[A-Za-z_]{6,10}$/
+                var reg = /^[a-zA-Z0-9_-]{4,16}$/;
                 if (reg.test(this.value)) {
                     p.innerHTML = '验证成功';
                 }
@@ -89,18 +89,21 @@ var login = (function () {
                     span.innerHTML = '验证失败';
                 }
             }
-            btCode.onclick = function () {
-                 btCode.value=60;
-                 
-                 var timer=setInterval(function(){
-                    if(btCode.value == 1) {
-                       clearInterval(timer);
+            var timer=null;
+            btCode.onclick = function () {   
+                var time=60;
+                 timer=setInterval(function(){
+                     console.log(time );
+                    if(time <= 1) {
+                        btCode.value="获取验证码";
+                        btCode.disabled=false;
+                        clearInterval(timer);
+                    }else {
+                        btCode.disabled=true;
+                        time --;
+                        btCode.value=time+'s';
                     }
-                    btCode.value--;
-                    if(btCode.value == 0){
-                        btCode.value="获取验证码"
-                      }
-                },1000);
+                },100);
                 
             }
             phoneCode.onblur = function () {
@@ -113,7 +116,7 @@ var login = (function () {
                //DOMContentLoaded就是dom内容加载完毕。
             document.addEventListener('DOMContentLoaded', function() {
                 //1.找节点
-                var username = document.querySelector('#username');
+                // var username = document.querySelector('#username');
                 // var isok = false;
                 var btn = document.querySelector('#login_btn_id'); //name top 不能用作id名
                 var psw = document.querySelector('#password');
@@ -128,7 +131,7 @@ var login = (function () {
                         ajax('POST', url, data, function(str) {
                             console.log(data);
                             if(str=='yes'){
-                                location.href='../../home/html/index.html';
+                                location.href='../../home/html/in.html';
                             }else{
                                 alert("账户/密码不正确");
                             }
