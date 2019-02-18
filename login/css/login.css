@@ -137,8 +137,20 @@
     vertical-align: middle;
     display: inline-block;
 }
-
+.number{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 48px;
+    width: 120px;
+    cursor: pointer;
+    display: inline-block;
+}
 .icon-id{
     color: red;
     font-size: 12px;
+    position: absolute;
+    right: -70px;
+    top: 12px;
+    height: 48px;
 }
