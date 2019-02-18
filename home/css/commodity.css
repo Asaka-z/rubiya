@@ -34,9 +34,9 @@
 }
 
 #out .num li {
-	width: 10px;
-	height: 10px;
-	line-height: 10px;
+	width: 6px;
+	height: 6px;
+	line-height: 6px;
 	border-radius: 50%;
 	background: #666;
 	color: #fff;
@@ -48,7 +48,8 @@
 }
 
 #out .num li.active {
-	background: #a00;
+	 /* background: rgb(8, 7, 7); */
+	border: 2px solid rgb(240, 7, 7);
 }
 
 #out .btn {
@@ -70,20 +71,20 @@
 
 #out .left {
 	position: absolute;
-	left: 25%;
+	left: 22%;
 	background: rgba(0, 0, 0, 0.4) url(../images/icon-slides.png) no-repeat -84px 0px;
 	border-radius: 20px;
 	cursor: pointer;
-	z-index: 999;
+	z-index: 7;
 }
 
 #out .right {
 	position: absolute;
-	right: 25%;
+	right: 34%;
 	background: rgba(0, 0, 0, 0.4) url(../images/icon-slides.png) no-repeat -125px 0px;
 	border-radius: 20px;
 	cursor: pointer;
-	z-index: 999;
+	z-index: 7;
 }
 
 
@@ -99,15 +100,16 @@
 }
 
 .banner_nav {
-	position: absolute;
+	position: relative;
 	width: 240px;
 	height: 496px;
 	background: rgba(255, 255, 255, 0.8);
-	z-index: 3;
+	z-index: 10;
 	padding: 12px 0;
 }
 
-.banner_nav li {
+.banner_nav .li1 p{
+	display: block;
 	cursor: pointer;
 	width: 200px;
 	height: 62px;
@@ -116,15 +118,45 @@
 	font-size: 15px;
 }
 
-.banner_nav li:hover {
+.banner_nav .li1 p:hover {
 	background: #f7f7f7;
 	color: #e94929;
 }
+.banner_nav .li1 .li2 :hover {
+	background: #ffffff;
+	color: #e94929;
+}
+.banner_nav .li1:hover ul.nav2{
+	display: block;
+}
+.banner .li2 img{
+	width: 60px;
+	height: 60px;
+	margin-left: 20px;
+	vertical-align: middle;
+}
+.banner .nav2{
+	width: 240px;
+	height: 520px;
+	position: absolute;
+	left: 240px;
+	top: 0;
+	background: #ffffff;
+	display: none; 
+}
+.banner .li2{
+	width: 240px;
+	height: 90px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.banner .li2 span{
+	font-size: 12px;
+	color: #666666;
+	margin-left: 10px;
+}
 
-
-
-
-/*ad*/
+/*轮播图下面的内容*/
 
 #ad_wrapper {
 	height: 180px;
@@ -253,7 +285,9 @@
 .title_p {
 	height: 83px;
 }
-
+.title_parts{
+	margin-bottom: 20px;
+}
 .title_q_phone,
 .a_q_phone,
 .title_parts,
@@ -383,7 +417,31 @@
 .title_s {
 	height: 85px;
 }
-
+.title_cppjtu{
+	width: 1200px;
+	height: 334px;
+}
+.title_cppjtu ul{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.title_cppjtu ul li{
+	width: 290px;
+	height: 334px;
+	text-align: center;
+	background: #ffff;
+	transition: all 1.2s;
+}
+.title_cppjtu ul li:hover{
+	transform: scale(1.05);
+}
+.title_cppjtu ul li span{
+	display: block;
+	font-size: 18px;
+	color: #222;
+	margin-top: 38px;
+}
 .title_video,
 .a_video,
 .title_server,
@@ -459,7 +517,8 @@
 }
 
 .v_c_b span {
-	font-size: 14px line-height: 24px;
+	font-size: 14px;
+	 /* line-height: 24px; */
 	color: #999;
 }
 
