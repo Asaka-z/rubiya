@@ -22,8 +22,8 @@ var slide = (function () {
                 _this.shw();
             })
             $AAll.eq(2).mouseover(function () {
-                $hua2.animate({ height: 300, opacity: 1 })
-                $('.slis').animate({ height: 300, opacity: 1 })
+                $hua2.stop().animate({ height: 300, opacity: 1 })
+                $('.slis').stop().animate({ height: 300, opacity: 1 })
                 $('.iplists').show();
                 $('.lefs').show();
                 $('.rigs').show();
@@ -32,8 +32,8 @@ var slide = (function () {
                 _this.hde();
             })
             $liAll.eq(2).mouseleave(function () {
-                $hua2.animate({ height: 0 }, 150)
-                $('.slis').animate({ height: 0 }, 150)
+                $hua2.stop().animate({ height: 0 }, 150)
+                $('.slis').stop().animate({ height: 0 }, 150)
                 $('.iplists').hide();
                 $('.lefs').hide();
                 $('.rigs').hide();
@@ -70,15 +70,15 @@ var slide = (function () {
             })
         },
         shw() {
-            $hua.animate({ height: 300, opacity: 1 })
-            $sli.animate({ height: 300, opacity: 1 })
+            $hua.stop().animate({ height: 300, opacity: 1 })
+            $sli.stop().animate({ height: 300, opacity: 1 })
             $minul.show();
             $left.show();
             $rig.show();
         },
         hde() {
-            $hua.animate({ height: 0 }, 150)
-            $sli.animate({ height: 0 }, 150)
+            $hua.stop().animate({ height: 0 }, 150)
+            $sli.stop().animate({ height: 0 }, 150)
             $minul.hide();
             $left.hide();
             $rig.hide();

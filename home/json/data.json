@@ -1,0 +1,10 @@
+{
+    "code":200,
+    "data":[{
+        "id": 1,
+        "name": "红魔Mars",
+        "img":"../images/x/pic1.png",
+        "price": 9999,
+        "ps": "红魔Mars 曜石黑 6GB+64GB"
+    }]
+}
